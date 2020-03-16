@@ -1,0 +1,23 @@
+table{
+    margin-top: 150px ;
+    margin-left: 450px;
+    position: relative;
+    /* background-color: gray; */
+
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+.center{
+    border:  solid 5px;}
+.column{
+    border-right:  solid 5px;
+    border-left:   solid 5px;
+}
+.row{
+    border-top:  solid 5px;
+    border-bottom:  solid 5px;
+
+}
+

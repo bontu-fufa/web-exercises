@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    top: 0px;
+    width: 100%;
+    margin-top: 10px;
+    position: fixed;
+}
+body{
+    margin: 15px;
+    margin-right: 30px;
+    background-color: blanchedalmond;
+}
+nav{
+    position: relative;
+    margin-left: 25%;
+    font-size: larger;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 5px;
+    text-align: center;
+    border-bottom: 4px solid darkslategrey;
+
+}
+nav *{
+    display: inline;
+    margin: 20px;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color:whitesmoke;
+}
+.whole{
+    margin-top: 100px;
+}
+img{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 10%;
+    float: left;
+    margin-right: 20px;
+}
+.clear{
+    clear: both;
+}
+section{
+    position: relative;
+    margin-left: 25%;
+    
+}
+section h3{
+    text-align: justify;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: bold;
+    border-left: turquoise solid 5px;
+    /* border-bottom: teal solid 5px; */
+}
+.GPS{
+    margin-top: 10px;
+    width: 50%;
+    float: left; 
+    /* border-right: 2px  solid black; */
+}
+.GPS h4{
+    margin-bottom: 20px;
+}
+.clear{
+    clear: left;
+}
+form{
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+form *{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#country {
+    display: inline;
+}
+#date{
+    display: inline;
+}
+form button{
+    position: relative;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10%;
+
+}
+form button:hover{
+    color: green;
+}
+
+
+footer{
+    margin-left: 10%;
+    margin-top: 20px;
+    float: left;
+    margin-right: 20px
+}
+footer{
+    position: relative;
+}
+footer .contacts  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: tomato;
+    padding-left: 5px;
+
+}
+footer .c{
+    text-align: center;
+    color: gray;
+}
+footer .dev{
+    color: gray;
+    border-bottom: green 5px solid;
+    margin-bottom: 50px;
+}

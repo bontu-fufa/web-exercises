@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    top: 0px;
+    width: 100%;
+    margin-top: 10px;
+    position: fixed;
+}
+body{
+    margin: 15px;
+    margin-right: 30px;
+    background-color: blanchedalmond;
+}
+nav{
+    position: relative;
+    margin-left: 25%;
+    font-size: larger;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 5px;
+    text-align: center;
+    border-bottom: 4px solid darkslategrey;
+
+}
+nav *{
+    display: inline;
+    margin: 20px;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color:whitesmoke;
+}
+.whole{
+    margin-top: 100px;
+}
+img{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 10%;
+    float: left;
+    margin-right: 20px;
+}
+h3{
+    padding-top: 10px;
+    margin-left: 25%;
+    font-size: larger;
+    border-bottom: teal solid 2px;
+
+}
+.article h3{
+    margin-left: 5px;
+    padding-top: 25px;
+    border-top: 2px solid black;
+}
+
+.hobbies ul li{
+    margin-top: 10px;
+    margin-left: 25%;
+    text-shadow: yellow;
+
+}
+.hobbies li{
+    list-style-type: none;
+    font-size: medium;
+    
+}
+.hobbies li li{
+    list-style-type: none;
+    margin-left: 10%;
+    font-size: 15px;
+    font-style: normal;
+}
+.hobbies .inner{
+ 
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+.workExp .column{
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 15%;
+    float: left;
+    padding-right: 40px;
+}
+.clear{
+    clear: left;
+}
+.skills .column{
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 15%;
+    float: left;
+    padding-right: 40px;
+}
+
+footer{
+    margin-left: 10%;
+    margin-top: 20px;
+    float: left;
+    margin-right: 20px
+}
+footer .contacts  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: tomato;
+    padding-left: 5px;
+
+}
+footer .c{
+    text-align: center;
+    color: gray;
+}
+footer .dev{
+    color: gray;
+    border-bottom: green 5px solid;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    top: 0px;
+    width: 100%;
+    margin-top: 10px;
+    position: fixed;
+}
+
+body{
+    margin: 15px;
+    margin-right: 30px;
+    background-color: blanchedalmond;
+}
+nav{
+    position: relative;
+    margin-left: 25%;
+    font-size: larger;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 5px;
+    text-align: center;
+    border-bottom: 4px solid darkslategrey;
+
+}
+nav *{
+    display: inline;
+    margin: 20px;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color:whitesmoke;
+}
+img{
+    display: block;
+    height: 200px;
+    width:250px;
+    /* border-radius: 25%; */
+    margin-left: 30px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.clear{
+    clear: both;
+}
+
+.whole{
+    margin-top: 100px;
+}
+section{
+    
+    padding-top: 30px;
+    position: relative;
+    margin-left: 25%;
+    
+}
+h3{
+    margin-top: 100px;
+    text-align: justify;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: bold;
+    border-left: turquoise solid 5px;
+    
+}
+
+
+
+footer{
+    margin-left: 10%;
+    margin-top: 20px;
+    float: left;
+    margin-right: 20px
+}
+footer{
+    position: relative;
+}
+footer .contacts  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: tomato;
+    padding-left: 5px;
+
+}
+footer .c{
+    text-align: center;
+    color: gray;
+}
+footer .dev{
+    color: gray;
+    border-bottom: green 5px solid;
+    margin-bottom: 50px;
+}

@@ -8,12 +8,14 @@ id */
 }
 
 body{
-    background-color: skyblue;
+    background-color: blanchedalmond;
     /* border: 10px lightgrey solid; */
-    margin: 10px;
+    margin: 15px;
+    margin-right: 30px;
+    background-color: blanchedalmond;
 }
 header{
-    background-color: rgba(119,55,25,0.4);
+    /* background-color: rgba(119,55,25,0.4); */
     position: fixed;
     top: 0px;
     width: 100%;
@@ -34,14 +36,42 @@ section{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 5px 30px;
     margin-top: 100px;
+    margin-left: 25%;
+}
+section a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: gray;
 }
 article{
-    font-size: 15px;
+    font-size: medium;
     line-height: 25px;
     text-align: justify;
+    border-right: greenyellow solid 5px;
+    
+}
+article p {
+    margin-right: 10px ;
+
+}
+article h3{
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    color: olivedrab;
+}
+
+img{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    margin-left: 10%;
+    float: left;
+    margin-right: 20px;
 }
 /* changing nature */
-nav ul li {
+/* nav ul li {
     display: inline-block;
     padding: 10px 3px;
     font-size: 20px;
@@ -52,21 +82,40 @@ nav ul li a {
 }
 nav ul li:hover{
     background-color: whitesmoke;
+} */
+nav{
+    position: relative;
+    margin-left: 25%;
+    font-size: larger;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 5px;
+    text-align: center;
+    border-bottom: 4px solid darkslategrey;
+
 }
-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    float: left;
-    margin-right: 10px;
-    margin-top: ;
+nav *{
+    display: inline;
+    margin: 20px;
 }
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color:whitesmoke;
+}
+
 #clear{
     clear: left;
 }
 .title{
     font-size: 23px;
     font-weight: bold;
+    padding-bottom: 25px;
+    color:brown;
     
 }
 .date{
@@ -75,3 +124,29 @@ img{
     text-transform: uppercase;
 }
 
+
+footer{
+    margin-left: 10%;
+    margin-top: 20px;
+    float: left;
+    margin-right: 20px
+}
+footer{
+    position: relative;
+}
+footer .contacts  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: tomato;
+    padding-left: 5px;
+
+}
+footer .c{
+    text-align: center;
+    color: gray;
+}
+footer .dev{
+    color: gray;
+    border-bottom: green 5px solid;
+    margin-bottom: 50px;
+}

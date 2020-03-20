@@ -1,0 +1,49 @@
+
+body{
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: blanchedalmond;
+}
+
+.container{
+    max-width: 900px;
+    
+}
+
+.flexContainer{
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.box{
+    border-left: brown 5px solid;
+    flex-grow: 20 ;
+    flex-shrink: 2;
+    flex-wrap: wrap-reverse;
+    margin-left: 20px;
+}
+
+img{
+    height: 75%;
+    width: 75%;
+    margin-top: 30px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: large;
+    color: chocolate;
+    font-weight: bolder;
+}
+
+.back{
+    
+    /* border: darkgoldenrod solid 3px; */
+    text-align: center ;
+    font-weight: bold;
+    font-size: x-large;
+    
+}

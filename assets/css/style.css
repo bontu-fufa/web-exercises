@@ -13,6 +13,7 @@ body{
     margin: 15px;
     margin-right: 30px;
     background-color: blanchedalmond;
+    margin-bottom: 10px;
 }
 header{
     /* background-color: rgba(119,55,25,0.4); */
@@ -30,6 +31,15 @@ header{
     /* top: 0;
     width: 98%; */
     
+}
+.navigation{
+    display: flex;
+    flex: 1 100%;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
 }
 section{
     /* border: solid 1px; */
@@ -98,7 +108,7 @@ nav{
 }
 nav *{
     display: inline;
-    margin: 20px;
+    margin: 30px;
 }
 nav li a{
     color: black;
@@ -129,7 +139,7 @@ footer{
     margin-left: 10%;
     margin-top: 20px;
     float: left;
-    margin-right: 20px
+    margin-right: 20px;
 }
 footer{
     position: relative;
@@ -148,5 +158,5 @@ footer .c{
 footer .dev{
     color: gray;
     border-bottom: green 5px solid;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }

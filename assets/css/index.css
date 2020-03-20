@@ -22,6 +22,16 @@ body{
     justify-content: flex-start;
 
 }
+@media screen and (max-width: 992px) {
+    .navigation {
+      flex: 50%;
+    }
+  }
+@media screen and (max-width: 992px) {
+        body {
+          background-color : chocolate;
+        }
+      }
 nav{
     position: relative;
     margin-left: 25%;

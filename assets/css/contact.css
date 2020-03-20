@@ -141,3 +141,14 @@ footer .dev{
     border-bottom: green 5px solid;
     margin-bottom: 100px;
 }
+
+@media screen and (max-width: 992px) {
+    .navigation {
+      flex: 50%;
+    }
+  }
+@media screen and (max-width: 992px) {
+        body {
+          background-color : chocolate;
+        }
+      }
